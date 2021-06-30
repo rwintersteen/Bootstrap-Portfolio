@@ -1,0 +1,54 @@
+/*Background image*/
+.hero.is-success {
+    background-image: url(https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) !important;
+    color: #fff;
+}
+
+/*Header Info*/
+#main {
+    font-size: 5rem;
+    font-family: 'Permanent Marker', cursive !important;
+    color: white;
+}
+
+#main-sub {
+    font-family: 'Montserrat', sans-serif, !important;
+    color: white;    
+}
+
+/*Navigation Links*/
+.navbar-menu .navbar-menu:hover {
+    margin-right: 0.5rem;
+    background-color: #ffffff !important;
+}
+
+
+/*About Me*/
+.section-heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+
+/*Portfolio Sections*/
+.title {
+    font-size: 2em, !important;
+    font-family: 'Permanent Marker', cursive !important;
+    color: white;
+}
+
+.portfolio-container .card {
+    margin-bottom: 2em;
+}
+
+/*Email Button*/
+
+
+/*Footer*/
+
+
+/**Break point**/ 
+
+@media screen and (max-width: 762px) {
+
+}
