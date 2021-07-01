@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*Background image*/
-.hero.is-success {
+.hero.is-link {
     background-image: url(https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) !important;
     color: #fff;
 }
@@ -17,11 +21,20 @@
 }
 
 /*Navigation Links*/
-.navbar-menu .navbar-menu:hover {
+.navbar-menu {
     margin-right: 0.5rem;
-    background-color: #ffffff !important;
+    background-color: #3273dc !important;
 }
 
+/*Profile Picture*/
+#profile-picture {
+    height: 35% !important;
+    width: 35% !important;
+}
+
+.is-horizontal-center {
+    justify-content: center;
+}
 
 /*About Me*/
 .section-heading {
@@ -40,12 +53,6 @@
 .portfolio-container .card {
     margin-bottom: 2em;
 }
-
-/*Email Button*/
-
-
-/*Footer*/
-
 
 /**Break point**/ 
 

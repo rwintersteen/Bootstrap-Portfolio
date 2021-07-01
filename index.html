@@ -16,38 +16,28 @@
 </head>
 
 <body>
-  <section class="hero is-success is-fullheight">
+  <section class="hero is-link is-fullheight">
     <div class="hero-head">
-
-  <!--Navigation Bar-->
       <header class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <span class="navbar-burger" data-target="navbarMenuHeroC">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroC" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item is-active" href="#about-me">
-                Overview
-              </a>
-              <a class="navbar-item" href="#profile">
-                Profile
-              </a>
-              <a class="navbar-item" href="#portfolio">
-                Portfolio
-              </a>
-              <a class="navbar-item" href="#contact-me">
-                Contact Me
-              </a>
-              <span class="navbar-item">
-              </span>
-            </div>
+      <!--Navigation Bar-->
+      <nav class="navbar is-link is-fixed-top is-fullwidth">
+        <div id="navbar-is-link" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#about-me">
+              <span>About Me</span>
+            </a>
+            <a class="navbar-item" href="#profile">
+              <span>Profile</span>
+            </a>
+            <a class="navbar-item" href="#portfolio">
+              <span>Portfolio</span>
+            </a>
+            <a class="navbar-item" href="#contact-me">
+              <span>Contact Me</span>
+            </a>
           </div>
         </div>
+      </nav>
       </header>
   <!--Header Info-->
     <div class="hero-body">
@@ -71,12 +61,21 @@
         <p>I graduated from Portland State University in 2014 with my BS in General Sciences while working full time as a dental assistant.
           Over the last decade, my career focus has been solely in dentistry and making my way through orthodontic assisting. Whether contributing my skills chairside with the dentist and orthodontist, or helping the front office with insurance and endless phone calls, I have filled just about every role in the dental clinic with my current credentials. <br><br>
           However, I needed a fresh start and web development was my siren's call.</p>
-          I enrolled in the University of Oregon's Coding Bootcamp in April 2021. Over the course so far, we've been honing our skills in HTML, CSS, and Javascript, with more to learn. Take a scroll and see the accomplishments thus far.</p>
+          I enrolled in the University of Oregon's Coding Bootcamp in April 2021 and expect to graduate with a certificate of completion in October 2021.</p>
       </div>
     </div>
-
+    <!--Profile Picture-->
+    <div class="card" id="profile-picture">
+      <div class="card-image">
+        <figure class="image is-square">
+          <img src="./images/Me and Lukas in the Pool-1.jpg" alt="Me and my son Lukas cooling off in the pool">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="column">
 <!-- Profile -->
-    <div class="columns has-same-height is-gapless">
+    <div class="columns has-same-height">
       <div class="column">
         <div class="card">
           <div class="card-content">
@@ -87,17 +86,17 @@
             </div>
             <br>
             <div class="buttons has-addons is-centered">
-              <a class="button is-medium is-instagram is-inverted" style="width: 50px" href="#">
+              <a class="button is-medium is-instagram is-inverted" style="width: 50px" href="https://www.instagram.com/rakkelly/">
                 <span class="icon">
                   <i class="fab fa-instagram fa-lg"></i>
                 </span>
               </a>
-              <a class="button is-medium is-linkedin is-inverted" style="width: 50px" href="#">
+              <a class="button is-medium is-linkedin is-inverted" style="width: 50px" href="https://www.linkedin.com/in/rachael-wintersteen-708140197/">
                 <span class="icon">
                   <i class="fab fa-linkedin fa-lg"></i>
                 </span>
               </a>
-              <a class="button is-medium is-github is-inverted" style="width: 50px;" href="#">
+              <a class="button is-medium is-github is-inverted" style="width: 50px;" href="https://github.com/rwintersteen">
                 <span class="icon">
                   <i class="fab fa-github fa-lg"></i>
                 </span>
@@ -106,24 +105,13 @@
           </div>
         </div>
       </div>
-      <div class="column">
-
-      <!-- Profile picture -->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-square">
-              <img src="./images/Me and Lukas in the Pool-1.jpg" alt="Me and my son Lukas cooling off in the pool">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="column">
 
   <!-- Skills -->
+      <div class="column">
         <div class="card">
           <div class="card-content skills-content">
             <h3 class="title is-4">Skills</h3>
-            <h4 class="subtitle is-5">Continously getting stronger</h4>
+            <h4 class="subtitle is-6">Striving to strengthen development languages</h4><br>
             <div class="content">
 
               <article class="media">
@@ -132,7 +120,7 @@
                     <p>
                       <strong>JavaScript:</strong>
                       <br>
-                      <progress class="progress is-primary" value="50" max="100"></progress>
+                      <progress class="progress is-primary" value="45" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -141,20 +129,9 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>HTML5</strong>
+                      <strong>HTML5/CSS</strong>
                       <br>
-                      <progress class="progress is-primary" value="75" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>CSS</strong>
-                      <br>
-                      <progress class="progress is-primary" value="75" max="100"></progress>
+                      <progress class="progress is-primary" value="70" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -166,9 +143,6 @@
     </div>
   </section>
 
-<!--Pictures of my life-->
-
-
 <!--Showing off my Coding skills-->
 <section class="section" id="portfolio">
   <div class="container">
@@ -177,12 +151,12 @@
       <h4 class="subtitle is-5">My latest works in chronological order</h4>
     </div>
     <br>
+
     <div class="container portfolio-container">
       <div class="columns">
-        <div class="column is-4">
+        <div class="column is-one-third">
+          <!--Horiseon Webpage-->
           <div class="card">
-
-            <!--Horiseon Webpage-->
             <header class="card-header">
               <p class="card-header-title">
                 <span>Horiseon Webpage</span>
@@ -198,108 +172,110 @@
             </div>
             <footer class="card-footer">
               <a href="https://rwintersteen.github.io/Horiseon-Webpage/" class="card-footer-item">Preview</a>
-              <a href="https://github.com/rwintersteen/Horiseon-Webpage" class="card-footer-item">Source
+              <a href="https://github.com/rwintersteen/Horiseon-Webpage" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+          <!--CSS Snippet Cheatsheet-->
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>CSS Snippet Cheatsheet</span>
+                <span class="is-pulled-right">
+                  <a href="https://rwintersteen.github.io/CSS-Snippet-Cheatsheet/">
+                  </a>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="./images/CSS Snippet Cheatsheet.png" alt="CSS Snippet Cheatsheet, to hone CSS skills">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="https://rwintersteen.github.io/CSS-Snippet-Cheatsheet/" class="card-footer-item">Preview</a>
+              <a href="https://github.com/rwintersteen/CSS-Snippet-Cheatsheet" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+          <!--Password Generator-->
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Password Generator</span>
+                <span class="is-pulled-right">
+                  <a href="https://rwintersteen.github.io/Password-Generator">
+                  </a>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="./images/Password Generator.png" alt="Password Generator, testing the waters of JavaScript">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="https://rwintersteen.github.io/Password-Generator" class="card-footer-item">Preview</a>
+              <a href="https://github.com/rwintersteen/Password-Generator" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+          <!--JavaScript Quiz-->
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>JavaScript Quiz</span>
+                <span class="is-pulled-right">
+                  <a href="https://rwintersteen.github.io/JavaScript-Quiz/">
+                  </a>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="./images/JavaScript Quiz.png" alt="JavaScript Quiz, familiarizing with more JavaScript">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="https://rwintersteen.github.io/JavaScript-Quiz/" class="card-footer-item">Preview</a>
+              <a href="https://github.com/rwintersteen/JavaScript-Quiz" class="card-footer-item">Source
                 Code</a>
             </footer>
-
-          <!--CSS Snippet Cheatsheet-->
-          <header class="card-header">
-            <p class="card-header-title">
-              <span>CSS Snippet Cheatsheet</span>
-              <span class="is-pulled-right">
-                <a href="https://rwintersteen.github.io/CSS-Snippet-Cheatsheet/">
-                </a>
-            </p>
-          </header>
-          <div class="card-content">
-            <figure class="image">
-              <img src="./images/CSS Snippet Cheatsheet.png" alt="CSS Snippet Cheatsheet, to hone CSS skills">
-            </figure>
           </div>
-          <footer class="card-footer">
-            <a href="https://rwintersteen.github.io/CSS-Snippet-Cheatsheet/" class="card-footer-item">Preview</a>
-            <a href="https://github.com/rwintersteen/CSS-Snippet-Cheatsheet" class="card-footer-item">Source
-              Code</a>
-          </footer>
-
-          <!--Password Generator-->
-          <header class="card-header">
-            <p class="card-header-title">
-              <span>Password Generator</span>>
-              <span class="is-pulled-right">
-                <a href="https://rwintersteen.github.io/Password-Generator">
-                </a>
-            </p>
-          </header>
-          <div class="card-content">
-            <figure class="image">
-              <img src="./images/Password Generator.png" alt="Password Generator, testing the waters of JavaScript">
-            </figure>
-          </div>
-          <footer class="card-footer">
-            <a href="https://rwintersteen.github.io/Password-Generator" class="card-footer-item">Preview</a>
-            <a href="https://github.com/rwintersteen/Password-Generator" class="card-footer-item">Source
-              Code</a>
-          </footer>
-
-          <!--JavaScript Quiz-->
-          <header class="card-header">
-            <p class="card-header-title">
-              <span>JavaScript Quiz</span>
-              <span class="is-pulled-right">
-                <a href="https://rwintersteen.github.io/JavaScript-Quiz/">
-                </a>
-            </p>
-          </header>
-          <div class="card-content">
-            <figure class="image">
-              <img src="./images/JavaScript Quiz.png" alt="JavaScript Quiz, familiarizing with more JavaScript">
-            </figure>
-          </div>
-          <footer class="card-footer">
-            <a href="https://rwintersteen.github.io/JavaScript-Quiz/" class="card-footer-item">Preview</a>
-            <a href="https://github.com/rwintersteen/JavaScript-Quiz" class="card-footer-item">Source
-              Code</a>
-          </footer>
           <!--Workday Scheduler-->
-          <header class="card-header">
-            <p class="card-header-title">
-              <span>Workday Schededuler</span>
-              <span class="is-pulled-right">
-                <a href="https://rwintersteen.github.io/Workday-Planner">
-                </a>
-            </p>
-          </header>
-          <div class="card-content">
-            <figure class="image">
-              <img src="./images/Workday Scheduler.png" alt="Workday Scheduler, honiing in JavaScript skills">
-            </figure>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Workday Schededuler</span>
+                <span class="is-pulled-right">
+                  <a href="https://rwintersteen.github.io/Workday-Planner">
+                  </a>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="./images/Workday Scheduler.png" alt="Workday Scheduler, honiing in JavaScript skills">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="https://rwintersteen.github.io/Workday-Planner" class="card-footer-item">Preview</a>
+              <a href="https://github.com/rwintersteen/Workday-Planner" class="card-footer-item">Source Code</a>
+            </footer>
           </div>
-          <footer class="card-footer">
-            <a href="https://rwintersteen.github.io/Workday-Planner" class="card-footer-item">Preview</a>
-            <a href="https://github.com/rwintersteen/Workday-Planner" class="card-footer-item">Source
-              Code</a>
-          </footer>
-
           <!--Dish Up-->
-          <header class="card-header">
-            <p class="card-header-title">
-              <span>Dish Up - Group Project centered around a Recipe search webpage</span>
-              <span class="is-pulled-right">
-                <a href="https://erik-jpg.github.io/Team-CookBook/">
-                </a>
-            </p>
-          </header>
-          <div class="card-content">
-            <figure class="image">
-              <img src="./images/Dish Up Main Page Screenshot.png" alt="Dish Up - Group Project centered around a Recipe search webpage">
-            </figure>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Dish Up</span>
+                <span class="is-pulled-right">
+                  <a href="https://erik-jpg.github.io/Team-CookBook/">
+                  </a>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="./images/Dish Up Main Page Screenshot.png" alt="Dish Up - Group Project centered around a Recipe search webpage">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="https://erik-jpg.github.io/Team-CookBook/" class="card-footer-item">Preview</a>
+              <a href="https://github.com/Erik-jpg/Team-CookBook" class="card-footer-item">Source Code</a>
+            </footer>
           </div>
-          <footer class="card-footer">
-            <a href="https://erik-jpg.github.io/Team-CookBook/" class="card-footer-item">Preview</a>
-            <a href="https://github.com/Erik-jpg/Team-CookBook" class="card-footer-item">Source
-              Code</a>
-          </footer>
         </div>
       </div>
     </div>
