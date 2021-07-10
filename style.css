@@ -4,13 +4,13 @@ html {
 
 /*Background image*/
 .hero.is-link {
-    background-image: url(https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) !important;
-    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)!important; 
+    background-size: cover !important;
 }
 
 /*Header Info*/
 #main {
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: 'Permanent Marker', cursive !important;
     color: white;
 }
@@ -23,13 +23,13 @@ html {
 /*Navigation Links*/
 .navbar-menu {
     margin-right: 0.5rem;
-    background-color: #3273dc !important;
 }
 
 /*Profile Picture*/
 #profile-picture {
     height: 35% !important;
     width: 35% !important;
+    justify-content: center;
 }
 
 .is-horizontal-center {

@@ -20,7 +20,14 @@
     <div class="hero-head">
       <header class="navbar">
       <!--Navigation Bar-->
-      <nav class="navbar is-link is-fixed-top is-fullwidth">
+      <nav class="navbar is-link is-fixed-top">
+        <div class="navbar-brand">
+          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
         <div id="navbar-is-link" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item" href="#about-me">
@@ -61,17 +68,16 @@
         <p>I graduated from Portland State University in 2014 with my BS in General Sciences while working full time as a dental assistant.
           Over the last decade, my career focus has been solely in dentistry and making my way through orthodontic assisting. Whether contributing my skills chairside with the dentist and orthodontist, or helping the front office with insurance and endless phone calls, I have filled just about every role in the dental clinic with my current credentials. <br><br>
           However, I needed a fresh start and web development was my siren's call.</p>
-          I enrolled in the University of Oregon's Coding Bootcamp in April 2021 and expect to graduate with a certificate of completion in October 2021.</p>
+          I enrolled in the University of Oregon's Coding Bootcamp in April 2021 and expect to graduate with a certificate of completion in October 2021.</p><br><br><br><br>
       </div>
-    </div>
-    <!--Profile Picture-->
-    <div class="card" id="profile-picture">
-      <div class="card-image">
+      <div class="card is-inline-block" id="profile-picture">
         <figure class="image is-square">
-          <img src="./images/Me and Lukas in the Pool-1.jpg" alt="Me and my son Lukas cooling off in the pool">
+            <img src="./images/Me and Lukas in the Pool-1.jpg" alt="Me and my son Lukas cooling off in the pool">
         </figure>
       </div>
     </div>
+    <!--Profile Picture-->
+    
   </div>
   <div class="column">
 <!-- Profile -->
@@ -153,14 +159,14 @@
     <br>
 
     <div class="container portfolio-container">
-      <div class="columns">
-        <div class="column is-one-third">
+      <div class="column is-multiline is-centered">
+        <div class="column is-6">
           <!--Horiseon Webpage-->
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Horiseon Webpage</span>
-                <span class="is-pulled-right">
+                <span class="is-flex-direction-column">
                   <a href="https://rwintersteen.github.io/Horiseon-Webpage/">
                   </a>
               </p>
@@ -180,7 +186,7 @@
             <header class="card-header">
               <p class="card-header-title">
                 <span>CSS Snippet Cheatsheet</span>
-                <span class="is-pulled-right">
+                <span class="is-flex-direction-column">
                   <a href="https://rwintersteen.github.io/CSS-Snippet-Cheatsheet/">
                   </a>
               </p>
@@ -200,7 +206,7 @@
             <header class="card-header">
               <p class="card-header-title">
                 <span>Password Generator</span>
-                <span class="is-pulled-right">
+                <span class="is-flex-direction-column">
                   <a href="https://rwintersteen.github.io/Password-Generator">
                   </a>
               </p>
@@ -220,7 +226,7 @@
             <header class="card-header">
               <p class="card-header-title">
                 <span>JavaScript Quiz</span>
-                <span class="is-pulled-right">
+                <span class="is-flex-direction-column">
                   <a href="https://rwintersteen.github.io/JavaScript-Quiz/">
                   </a>
               </p>
@@ -241,7 +247,7 @@
             <header class="card-header">
               <p class="card-header-title">
                 <span>Workday Schededuler</span>
-                <span class="is-pulled-right">
+                <span class="is-flex-direction-column">
                   <a href="https://rwintersteen.github.io/Workday-Planner">
                   </a>
               </p>
@@ -261,7 +267,7 @@
             <header class="card-header">
               <p class="card-header-title">
                 <span>Dish Up</span>
-                <span class="is-pulled-right">
+                <span class="is-flex-direction-column">
                   <a href="https://erik-jpg.github.io/Team-CookBook/">
                   </a>
               </p>
@@ -344,6 +350,6 @@
 
 
 
-    
+<script src="./script.js"></script>
 </body>
 </html>
